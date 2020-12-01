@@ -1,0 +1,6 @@
+<button (click)="createBox()" >Create Random Box</button>
+
+<app-box *ngFor="let box of boxs" 
+    [positionLeft]="box.positionLeft" 
+    [positionTop]="box.positionTop" 
+    [width]="box.width" [height]="box.height" [color]="box.color"></app-box>

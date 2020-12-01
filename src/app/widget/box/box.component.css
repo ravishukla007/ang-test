@@ -1,0 +1,8 @@
+.rs-box {
+    min-width: 50px;
+    min-height: 50px;
+    max-height: 200px;
+    max-width: 200px;
+    border: solid 1px #000;
+    position: fixed;
+}
